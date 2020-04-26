@@ -1,0 +1,25 @@
+{
+  "name": "KCBudgetTracker",
+  "version": "1.0.0",
+  "description": "A Budget Tracking App that tracks expenses using indexDB and Mongoose.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karna1014/KCBudgetTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karna1014/KCBudgetTracker/issues"
+  },
+  "homepage": "https://github.com/Karna1014/KCBudgetTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.10"
+  }
+}
