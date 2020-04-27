@@ -18,11 +18,11 @@ This App utilizes indexDB, MongoDB/Mongoose and uses Robo3T(open source-MongoDB 
 
    #### Instructions:
 
-   1. Click on "New Workout" or "Continue Workout".
-   2. "New" will allow you to add a new exercise.  Click complete when you are done.
-   3. "Continue" will allow you to add to your most recent exercise program.  Click complete   when you are done.
-   4. Click on "Dashboard" to see your progress "Stats".
-   5. Click on "Fitness Tracker" to go back to the main page.
+   1. Enter a new transaction on "Name" & the amount on "Amount".
+   2. Designate whether it is a debit or credit by selecting "Add Funds" or "Subtract Funds".
+   3. Your amount will be logged on the graph, saved into the database.
+   4. The new total is calculated and posted at the top of the screen.
+   5. Enter the next transaction or save until later.
 
    #### Installation: 
 
@@ -54,6 +54,10 @@ This App utilizes indexDB, MongoDB/Mongoose and uses Robo3T(open source-MongoDB 
      
    #### Images:
 
-**Main Page**
+    **Main Page**
 
-![Main Page](./public/assets/images/index.png)
+    ![Main Page](./public/images/main.png)
+
+    **Responsiveness**
+
+    ![I-Phone](./public/images/I-phone.png)
