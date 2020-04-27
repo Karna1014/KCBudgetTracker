@@ -56,8 +56,8 @@ This App utilizes indexDB, MongoDB/Mongoose and uses Robo3T(open source-MongoDB 
 
     **Main Page**
 
-    ![Main Page](./images/main.png)
+    ![Main Page](/main.png)
 
     **Responsiveness**
 
-    ![I-Phone](images/I-phone.png)
+    ![I-Phone](/I-phone.png)
