@@ -1,4 +1,9 @@
-const FILES_TO_CACHE = ["/", "/index.html", "db.js", "favicon.ico"];
+const FILES_TO_CACHE = [
+  "/",
+  "index.js",
+   "db.js", 
+   "/images/favicon_io/favicon.ico"
+  ];
 
 const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
