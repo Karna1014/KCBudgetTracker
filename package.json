@@ -1,5 +1,5 @@
 {
-  "name": "KCBudgetTracker",
+  "name": "kcbudgettracker",
   "version": "1.0.0",
   "description": "A Budget Tracking App that tracks expenses using indexDB and Mongoose.",
   "main": "server.js",
