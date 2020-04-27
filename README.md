@@ -60,4 +60,4 @@ This App utilizes indexDB, MongoDB/Mongoose and uses Robo3T(open source-MongoDB 
 
     **Responsiveness**
 
-    ![I-Phone](/I-phone.png)
+    ![I-Phone](./public/images/I-phone.png)
