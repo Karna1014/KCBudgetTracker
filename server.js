@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const MONGODB_URI = "mongodb://budget1:bastionBT7@ds219095.mlab.com:19095/heroku_m3d40sjz" || "mongodb:/localhost/workoutTrackerdb";
+const MONGODB_URI = "mongodb://budget1:bastionBT7@ds133261.mlab.com:33261/heroku_qkl867v8" || "mongodb:/localhost/budget";
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
