@@ -20,12 +20,16 @@
       </div>
 
       <form>
-        <label for="t-name">Transaction Name:</label>
-        <input type="text" id="t-name" placeholder="Name" />
-
-        <label for="t-amount">Transaction Amount:</label>
-        <input type="number" min="0" id="t-amount" placeholder="Amount" />
-
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="t-name">Transaction Name:</label>
+            <input type="text" id="t-name" placeholder="Name" />
+          </div>
+        <div class="form-group col-md-6">
+          <label for="t-amount">Transaction Amount:</label>
+          <input type="number" min="0" id="t-amount" placeholder="Amount" />
+        </div>
+      </div>
         <div class="transaction-buttons">
           <button id="add-btn"><i class="fa fa-plus"></i> Add Funds</button>
           <button id="sub-btn">
