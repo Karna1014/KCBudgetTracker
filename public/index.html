@@ -3,24 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Budget Tracking App Page for tracking transactions."
-    />
+    <meta name="description" content="Budget Tracking App Page for tracking transactions."/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="theme-color" content="#317EFB" />
 
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="stylesheet" href="/style.css" />
-    <link
-      rel="shortcut icon"
-      type="image/ico"
-      href="/images/favicon_io/favicon.ico"
-    />
-    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="shortcut icon" type="image/ico" href="/images/favicon_io/favicon.ico"/>
+    <link rel="manifest" href="manifest.webmanifest"/>
     <title>Budget Tracker</title>
   </head>
   <body>
@@ -30,10 +20,10 @@
       </div>
 
       <form>
-        <label for="t-name">Transaction Name:</label>
-        <input type="text" id="t-name" placeholder="Name" />
-        <label for="t-amount">Transaction Amount:</label>
-        <input type="number" min="0" id="t-amount" placeholder="Amount" />
+            <label for="t-name">Transaction Name:</label>
+            <input type="text" id="t-name" placeholder="Name" />
+          <label for="t-amount">Transaction Amount:</label>
+          <input type="number" min="0" id="t-amount" placeholder="Amount" />
         <div class="transaction-buttons">
           <button id="add-btn"><i class="fa fa-plus"></i> Add Funds</button>
           <button id="sub-btn">
@@ -62,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
-          navigator.serviceWorker.register("service-worker.js").then((reg) => {
+          navigator.serviceWorker.register("service-worker.js").then(reg => {
             console.log("We found your service worker file!", reg);
           });
         });
