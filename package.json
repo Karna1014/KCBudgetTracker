@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Karna1014/KCBudgetTracker#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.9.10"
+    "mongoose": "^5.13.15"
   }
 }
